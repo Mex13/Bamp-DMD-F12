@@ -16,6 +16,7 @@
 		B5E6071621A2FCA3004571C7 /* Bamp_DMD_F12UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6071521A2FCA3004571C7 /* Bamp_DMD_F12UITests.swift */; };
 		B5F1999B21A40D5B00BDFE45 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1999A21A40D5B00BDFE45 /* MapViewController.swift */; };
 		B5F1999D21A416E800BDFE45 /* SportPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1999C21A416E800BDFE45 /* SportPlaces.swift */; };
+		B5F1999F21A41D5D00BDFE45 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1999E21A41D5D00BDFE45 /* Sport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B5E6071721A2FCA3004571C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5F1999A21A40D5B00BDFE45 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B5F1999C21A416E800BDFE45 /* SportPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportPlaces.swift; sourceTree = "<group>"; };
+		B5F1999E21A41D5D00BDFE45 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				B5F1999A21A40D5B00BDFE45 /* MapViewController.swift */,
 				B5E606F521A2FCA1004571C7 /* AppDelegate.swift */,
 				B5E606F721A2FCA1004571C7 /* ViewController.swift */,
+				B5F1999E21A41D5D00BDFE45 /* Sport.swift */,
 				B5F1999C21A416E800BDFE45 /* SportPlaces.swift */,
 				B5E606F921A2FCA1004571C7 /* Main.storyboard */,
 				B5E606FC21A2FCA2004571C7 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F1999F21A41D5D00BDFE45 /* Sport.swift in Sources */,
 				B5F1999D21A416E800BDFE45 /* SportPlaces.swift in Sources */,
 				B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */,
 				B5F1999B21A40D5B00BDFE45 /* MapViewController.swift in Sources */,
