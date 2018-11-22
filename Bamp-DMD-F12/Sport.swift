@@ -22,3 +22,4 @@ class Sport: NSObject, MKAnnotation {
         name = snapshot.documentID
         status = snapshot.data()["status"] as? String
 }
+}
