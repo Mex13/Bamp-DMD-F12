@@ -24,19 +24,22 @@ class ViewController: UIViewController {
 
 extension ViewController: CLLocationManagerDelegate {
     
-    func locationManager( manager: CLLocationManager, didUpdateLocations locations, _: [CLLocation]) {
+    func locationManager( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else {return}
         print(location)
     }
+    
     extension ViewController: UITableViewDataSource, UITableViewDelegate {
         func tableView( tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return places.sport.count
         }
+        
         func tableView( tableView: UITableView, cellOfRowAt indexPath: IndexPath) -> UITableViewCell {
+          
             let cell = tableView.dequeueReusableCell(withIdentifier: "Cell"), for: IndexPath)
             let SportForCell = places.sport[IndexPath.row]
             cell?.textLabel?.text = SportForCell.name
-            cell.detailTextLabel?text = " \"(sportForCell.location.latitude) - \
+            cell.detailTextLabel?;text = " \(sportForCell.location.latitude) - \
             (SportForCell.location.longitude)"
             return cell
         }
@@ -55,6 +58,7 @@ extension ViewController: CLLocationManagerDelegate {
             tableView.deselectRow(at: <#T##IndexPath#>, animated: true)
             tableView.reloadRows (at: IndexPath, with: .fade)
         }
+        
         extension ViewController: CLLocationManagerDelegate {
             
             func locationManager ( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
