@@ -65,11 +65,18 @@
                                 <rect key="frame" x="168" y="324" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="login:" destination="q58-Ol-FIb" eventType="touchUpInside" id="rEi-zi-a2M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tZE-d6-sOp"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Xbv-WO-fVI" id="Qxw-Pj-2ti"/>
+                        <outlet property="passwordTextField" destination="q5q-4u-LCd" id="lmP-JK-G8N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1Y-N2-im4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +85,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bamp_DMD_F12" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Bamp_DMD_F12" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
