@@ -10,9 +10,12 @@ class LoginViewController: UIViewController {
     
     @IBAction func login(_ sender: Any) {
         
-        guard let email
-        //at 10:07 in video
-        
+        guard let email = emailTextField.text, let password = passwordTextField.text else { return }
+       
+        Auth.auth().signIn(withEmail: email, password: password) {user, error in
+            if let = user {
+                self,dismiss(animated: true, completion: nil) }
+            }
         
         
         
