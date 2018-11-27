@@ -10,6 +10,7 @@
 		AA7A685D21AC2C0800BBDD94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */; };
 		AA7A685F21AC330700BBDD94 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */; };
 		AA7A686121AC35EF00BBDD94 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A686021AC35EF00BBDD94 /* AppManager.swift */; };
+		B563558B21AD68300037A32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B563558A21AD68300037A32B /* Assets.xcassets */; };
 		B5E606F621A2FCA1004571C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E606F521A2FCA1004571C7 /* AppDelegate.swift */; };
 		B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E606F721A2FCA1004571C7 /* ViewController.swift */; };
 		B5E606FB21A2FCA1004571C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E606F921A2FCA1004571C7 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
 		AA7A686021AC35EF00BBDD94 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		B563558A21AD68300037A32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Volumes/data/Digital Media Design/13:12:2018/Buddy Watch 3/Buddy Watch/Assets.xcassets"; sourceTree = "<group>"; };
 		B5E606F221A2FCA1004571C7 /* Bamp-DMD-F12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bamp-DMD-F12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E606F521A2FCA1004571C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E606F721A2FCA1004571C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				B5F1999C21A416E800BDFE45 /* SportPlaces.swift */,
 				B5E606F921A2FCA1004571C7 /* Main.storyboard */,
 				B5E606FE21A2FCA2004571C7 /* LaunchScreen.storyboard */,
+				B563558A21AD68300037A32B /* Assets.xcassets */,
 				B5E6070121A2FCA2004571C7 /* Info.plist */,
 			);
 			path = "Bamp-DMD-F12";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E6070021A2FCA2004571C7 /* LaunchScreen.storyboard in Resources */,
+				B563558B21AD68300037A32B /* Assets.xcassets in Resources */,
 				B5E606FB21A2FCA1004571C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
