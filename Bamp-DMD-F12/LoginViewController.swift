@@ -13,7 +13,7 @@ class LoginViewController: UIViewController {
         guard let email = emailTextField.text, let password = passwordTextField.text else { return }
        
         Auth.auth().signIn(withEmail: email, password: password) {user, error in
-            if let_ = user {
+            if let _ = user {
                 self.dismiss(animated: true, completion: nil) }
             }
         

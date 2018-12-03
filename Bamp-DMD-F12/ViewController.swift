@@ -6,13 +6,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let locationManager = CLLocationManager()
-    let sport = SportPlaces(name: "Football")
+    let sport = SportPlaces()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         sport.delegate = self
-        sport.startPlacesSports()
+        sport.startPlaceSport()
         
         locationManager.requestAlwaysAuthorization()
         locationManager.delegate = self
@@ -30,43 +30,34 @@ extension ViewController: CLLocationManagerDelegate {
     }
 }
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
-        func tableView( tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return places.sport.count
-        }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return sport.sports.count
+    }
         
-        func tableView( tableView: UITableView, cellOfRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
           
-            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell"), (`for`: IndexPath)
-            let SportForCell = places.sport[IndexPath.row]
-            cell?.textLabel?.text = SportForCell.name
-            cell.detailTextLabel?;text = " \(sportForCell.location.latitude)" - \
-            "(SportForCell.location.longitude)"
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+            let sportForCell = sport.sports[indexPath.row]
+            cell.textLabel?.text = sportForCell.name
+   
             return cell
         }
         
         
-        func didUpdate() {
-            if tableView.numberOfRows(inSection: 0) = places.sport.count {
-                tableView.reloadData()
-            }
-            if let indexPaths = tableView.indexPathsForVisibleRows {
-                tableView.reloadRows(at: indexPaths, with: .fade)
-            }
-        }
+//        func didUpdate() {
+//            if tableView.numberOfRows(inSection: 0) = places.sport.count {
+//                tableView.reloadData()
+//            }
+//            if let indexPaths = tableView.indexPathsForVisibleRows {
+//                tableView.reloadRows(at: indexPaths, with: .fade)
+//            }
+//        }
+    
+}
+
+extension ViewController: SportPlaceDelegate {
+    func didUpdate() {
         
-        func tableView ( tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            tableView.deselectRow(at: IndexPath, animated: true)
-            tableView.reloadRows (at: IndexPath, with: .fade)
-        }
+    }
 }
-extension ViewController: CLLocationManagerDelegate {
-            
-            func locationManager ( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-                guard let location = locations.last else {return}
-                
-                
-            }
-}
-
-
-
