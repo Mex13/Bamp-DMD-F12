@@ -36,11 +36,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         func tableView( tableView: UITableView, cellOfRowAt indexPath: IndexPath) -> UITableViewCell {
           
-            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell"), `for`: IndexPath;)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell"), (`for`: IndexPath)
             let SportForCell = places.sport[IndexPath.row]
             cell?.textLabel?.text = SportForCell.name
-            cell.detailTextLabel?;text = " \(sportForCell.location.latitude) - \
-            (SportForCell.location.longitude)"
+            cell.detailTextLabel?;text = " \(sportForCell.location.latitude)" - \
+            "(SportForCell.location.longitude)"
             return cell
         }
         
