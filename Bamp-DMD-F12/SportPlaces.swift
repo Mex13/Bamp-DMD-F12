@@ -16,7 +16,9 @@ class SportPlaces {
     }
     func startPlaceSport() {
         let ref = Firestore.firestore().collection("locations")
-        ref.addSnapshotListener { snapshot, error in
+    
+        re.getDocuments { snapshot, error in
+    
             guard let snapshot = snapshot else { return }
             self.sports.removeAll()
             for document in snapshot.documents {
