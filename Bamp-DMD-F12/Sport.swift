@@ -12,12 +12,14 @@ class Sport: NSObject, MKAnnotation {
     }
     
     let location: GeoPoint
-    let name: String?
+    let name: String
+    let type: String
     
     init?(snapshot: QueryDocumentSnapshot) {
-        guard let location = snapshot.data()["location"] as? GeoPoint else {return nil}
+        guard let location = snapshot.data()["Location"] as? GeoPoint else {return nil}
         self.location = location
-        name = snapshot.documentID
+        name = snapshot.data()["Name"] as! String
+        type = snapshot.data()["Type"] as! String
 
     }
 }

@@ -40,7 +40,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
             let sportForCell = sport.sports[indexPath.row]
             cell.textLabel?.text = sportForCell.name
-   
+            cell.detailTextLabel?.text = sportForCell.type
             return cell
         }
         
@@ -58,6 +58,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
 
 extension ViewController: SportPlaceDelegate {
     func didUpdate() {
-        
+        tableView.reloadData()
     }
 }
