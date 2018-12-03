@@ -15,7 +15,7 @@ class SportPlaces {
     }
     
     func startPlaceSport() {
-        let ref = Firestore.firestore().collection("locations")
+        let ref = Firestore.firestore().collection("Locations")
     
         ref.getDocuments { snapshot, error in
     
@@ -25,8 +25,8 @@ class SportPlaces {
                 if let sport = Sport(snapshot: document) {
                     self.sports.append(sport)
                 }
-                self.delegate?.didUpdate()
             }
+            self.delegate?.didUpdate()
             
         }
         
