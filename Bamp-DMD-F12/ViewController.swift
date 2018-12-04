@@ -3,7 +3,10 @@ import CoreLocation
 
 class ViewController: UIViewController {
     
+    
+    
     @IBOutlet weak var tableView: UITableView!
+    
     
     let locationManager = CLLocationManager()
     let sport = SportPlaces()
@@ -18,7 +21,13 @@ class ViewController: UIViewController {
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
         
+        let nib = UINib(nibName: "CustomCell", bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: "Cell")
+        tableView.rowHeight = 120.0
+        
     }
+    
+   
     
 }
 
@@ -31,25 +40,20 @@ extension ViewController: CLLocationManagerDelegate {
 }
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return sport.sports.count
     }
         
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-          
-            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+   public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! CustomCell
             let sportForCell = sport.sports[indexPath.row]
             cell.textLabel?.text = sportForCell.name
+            //cell.imageView.image = sportForCell.sportsImage.image
             cell.detailTextLabel?.text = sportForCell.type
             return cell
         }
 
-  //  let nib = UINib(nibName: "CustomCell", bundle: nil)
-  //  tableView.register(nib, forCellReuseIdentifier: "Cell")
-    //let cell = tableView.dequeueReuseCell(withIdentifier: "Cell") as!CustomCell
-    //cell.colorCell.backgroundColor = UIColor(red: 0/255. green: 0/255, blue: 255/255, alpha: 1)
-    //cell.titleCell.text = "Hello"
-    //return cell
+
     
 //        func didUpdate() {
 //            if tableView.numberOfRows(inSection: 0) = places.sport.count {
