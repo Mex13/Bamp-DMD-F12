@@ -46,7 +46,10 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
 
   //  let nib = UINib(nibName: "CustomCell", bundle: nil)
   //  tableView.register(nib, forCellReuseIdentifier: "Cell")
-    
+    //let cell = tableView.dequeueReuseCell(withIdentifier: "Cell") as!CustomCell
+    //cell.colorCell.backgroundColor = UIColor(red: 0/255. green: 0/255, blue: 255/255, alpha: 1)
+    //cell.titleCell.text = "Hello"
+    //return cell
     
 //        func didUpdate() {
 //            if tableView.numberOfRows(inSection: 0) = places.sport.count {
