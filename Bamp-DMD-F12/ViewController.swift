@@ -43,8 +43,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             cell.detailTextLabel?.text = sportForCell.type
             return cell
         }
-        
-        
+
+  //  let nib = UINib(nibName: "CustomCell", bundle: nil)
+  //  tableView.register(nib, forCellReuseIdentifier: "Cell")
+    
+    
 //        func didUpdate() {
 //            if tableView.numberOfRows(inSection: 0) = places.sport.count {
 //                tableView.reloadData()

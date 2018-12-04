@@ -14,6 +14,8 @@
 		AA7A685D21AC2C0800BBDD94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */; };
 		AA7A685F21AC330700BBDD94 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */; };
 		AA7A686121AC35EF00BBDD94 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A686021AC35EF00BBDD94 /* AppManager.swift */; };
+		B5B85BFD21B67DCF00171387 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85BFC21B67DCF00171387 /* CustomCell.swift */; };
+		B5B85BFF21B67F6F00171387 /* Custom Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B85BFE21B67F6F00171387 /* Custom Cell.xib */; };
 		B5C517A721B565A8002BC49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C517A621B565A8002BC49B /* Assets.xcassets */; };
 		B5E606F621A2FCA1004571C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E606F521A2FCA1004571C7 /* AppDelegate.swift */; };
 		B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E606F721A2FCA1004571C7 /* ViewController.swift */; };
@@ -53,6 +55,8 @@
 		AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
 		AA7A686021AC35EF00BBDD94 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		B5B85BFC21B67DCF00171387 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B5B85BFE21B67F6F00171387 /* Custom Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Custom Cell.xib"; sourceTree = "<group>"; };
 		B5C517A621B565A8002BC49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E606F221A2FCA1004571C7 /* Bamp-DMD-F12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bamp-DMD-F12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E606F521A2FCA1004571C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */,
 				B5E606F521A2FCA1004571C7 /* AppDelegate.swift */,
 				B5E606F721A2FCA1004571C7 /* ViewController.swift */,
+				B5B85BFE21B67F6F00171387 /* Custom Cell.xib */,
+				B5B85BFC21B67DCF00171387 /* CustomCell.swift */,
 				B5F1999E21A41D5D00BDFE45 /* Sport.swift */,
 				B5F1999C21A416E800BDFE45 /* SportPlaces.swift */,
 				B5E606F921A2FCA1004571C7 /* Main.storyboard */,
@@ -269,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B85BFF21B67F6F00171387 /* Custom Cell.xib in Resources */,
 				B5E6070021A2FCA2004571C7 /* LaunchScreen.storyboard in Resources */,
 				A3C6E4F521B571DC003DD8D3 /* GoogleService-Info.plist in Resources */,
 				B5C517A721B565A8002BC49B /* Assets.xcassets in Resources */,
@@ -428,6 +435,7 @@
 				B5F1999F21A41D5D00BDFE45 /* Sport.swift in Sources */,
 				B5F1999D21A416E800BDFE45 /* SportPlaces.swift in Sources */,
 				B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */,
+				B5B85BFD21B67DCF00171387 /* CustomCell.swift in Sources */,
 				B5F1999B21A40D5B00BDFE45 /* MapViewController.swift in Sources */,
 				B5E606F621A2FCA1004571C7 /* AppDelegate.swift in Sources */,
 				AA7A685F21AC330700BBDD94 /* AppContainerViewController.swift in Sources */,
