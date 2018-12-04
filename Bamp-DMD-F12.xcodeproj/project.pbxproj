@@ -10,7 +10,7 @@
 		0C759EB615DD2D0B8F22075A /* Pods_Bamp_DMD_F12.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD6EF26576A6F61E673BC42 /* Pods_Bamp_DMD_F12.framework */; };
 		1D3AC9D5283CBBD35FB1F7F6 /* Pods_Bamp_DMD_F12Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC24CCE6C2C7710971283AA /* Pods_Bamp_DMD_F12Tests.framework */; };
 		83F21F5E0FF9B5C3318F2408 /* Pods_Bamp_DMD_F12UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF1CC8857F622E9F207841D /* Pods_Bamp_DMD_F12UITests.framework */; };
-		A3C6E4F521B571DC003DD8D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3C6E4F421B571DC003DD8D3 /* GoogleService-Info.plist */; };
+		AA1ADA4D21B6808400A6906B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1ADA4C21B6808400A6906B /* GoogleService-Info.plist */; };
 		AA7A685D21AC2C0800BBDD94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */; };
 		AA7A685F21AC330700BBDD94 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */; };
 		AA7A686121AC35EF00BBDD94 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A686021AC35EF00BBDD94 /* AppManager.swift */; };
@@ -51,7 +51,7 @@
 		8B2401DAFC30CF605201C976 /* Pods-Bamp-DMD-F12Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bamp-DMD-F12Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bamp-DMD-F12Tests/Pods-Bamp-DMD-F12Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E8DD5A83D2894DE7F6E9448 /* Pods-Bamp-DMD-F12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bamp-DMD-F12.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bamp-DMD-F12/Pods-Bamp-DMD-F12.debug.xcconfig"; sourceTree = "<group>"; };
 		920C143CA2DBC6FB4530B30A /* Pods-Bamp-DMD-F12UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bamp-DMD-F12UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bamp-DMD-F12UITests/Pods-Bamp-DMD-F12UITests.release.xcconfig"; sourceTree = "<group>"; };
-		A3C6E4F421B571DC003DD8D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA1ADA4C21B6808400A6906B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
 		AA7A686021AC35EF00BBDD94 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 				B5C517A621B565A8002BC49B /* Assets.xcassets */,
 				B5E606FE21A2FCA2004571C7 /* LaunchScreen.storyboard */,
 				B5E6070121A2FCA2004571C7 /* Info.plist */,
-				A3C6E4F421B571DC003DD8D3 /* GoogleService-Info.plist */,
+				AA1ADA4C21B6808400A6906B /* GoogleService-Info.plist */,
 			);
 			path = "Bamp-DMD-F12";
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			files = (
 				B5B85BFF21B67F6F00171387 /* Custom Cell.xib in Resources */,
 				B5E6070021A2FCA2004571C7 /* LaunchScreen.storyboard in Resources */,
-				A3C6E4F521B571DC003DD8D3 /* GoogleService-Info.plist in Resources */,
+				AA1ADA4D21B6808400A6906B /* GoogleService-Info.plist in Resources */,
 				B5C517A721B565A8002BC49B /* Assets.xcassets in Resources */,
 				B5E606FB21A2FCA1004571C7 /* Main.storyboard in Resources */,
 			);
