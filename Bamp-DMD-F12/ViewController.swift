@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         let nib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "Cell")
         tableView.rowHeight = 120.0
-        
     }
     
    
@@ -48,11 +47,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! CustomCell
             let sportForCell = sport.sports[indexPath.row]
             cell.textLabel?.text = sportForCell.name
-            //cell.imageView.image = sportForCell.sportsImage.image
+    
+            cell.imageView.image = sportForCell.TennisImage.image
             cell.detailTextLabel?.text = sportForCell.type
             return cell
-        }
-
+    
+    }
 
     
 //        func didUpdate() {

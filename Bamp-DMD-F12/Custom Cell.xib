@@ -15,47 +15,14 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tennis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72V-0Y-ANj">
-                    <rect key="frame" x="34" y="37" width="182" height="63"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TennisImage" translatesAutoresizingMaskIntoConstraints="NO" id="mah-DL-cmf">
+                    <rect key="frame" x="16" y="20" width="109" height="88"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72V-0Y-ANj">
+                    <rect key="frame" x="133" y="38" width="182" height="108"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="43"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TennisImage" translatesAutoresizingMaskIntoConstraints="NO" id="mah-DL-cmf">
-                    <rect key="frame" x="191" y="37" width="109" height="88"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Golf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voN-Gz-VI3">
-                    <rect key="frame" x="74" y="171" width="85" height="51"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GolfImage" translatesAutoresizingMaskIntoConstraints="NO" id="5aZ-qt-reM">
-                    <rect key="frame" x="167" y="133" width="150" height="161"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SkateboardImage" translatesAutoresizingMaskIntoConstraints="NO" id="AWJ-HZ-4NR">
-                    <rect key="frame" x="224" y="300" width="132" height="114"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cricket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ji4-3w-d7h">
-                    <rect key="frame" x="56" y="460" width="92" height="38"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CricketImage" translatesAutoresizingMaskIntoConstraints="NO" id="fB0-r0-WZT">
-                    <rect key="frame" x="170" y="443" width="154" height="210"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skateboarding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeq-YD-Idq">
-                    <rect key="frame" x="16" y="300" width="200" height="39"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -66,13 +33,10 @@
                 <outlet property="myLabel" destination="72V-0Y-ANj" id="ee2-lc-SY2"/>
                 <outlet property="sportImage" destination="mah-DL-cmf" id="3Q8-5A-JBS"/>
             </connections>
-            <point key="canvasLocation" x="45.600000000000001" y="81.409295352323838"/>
+            <point key="canvasLocation" x="-49" y="-57"/>
         </view>
     </objects>
     <resources>
-        <image name="CricketImage" width="600" height="600"/>
-        <image name="GolfImage" width="756" height="635"/>
-        <image name="SkateboardImage" width="440" height="247"/>
         <image name="TennisImage" width="411" height="308"/>
     </resources>
 </document>
