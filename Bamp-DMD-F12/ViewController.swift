@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 extension ViewController: CLLocationManagerDelegate {
     
-    func locationManager( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+   // func locationManager( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else {return}
         print(location)
     }
@@ -48,7 +48,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             let sportForCell = sport.sports[indexPath.row]
             cell.textLabel?.text = sportForCell.name
     
-            cell.imageView.image = sportForCell.TennisImage.image
+     //       cell.imageView.image = sportForCell.TennisImage.image
             cell.detailTextLabel?.text = sportForCell.type
             return cell
     

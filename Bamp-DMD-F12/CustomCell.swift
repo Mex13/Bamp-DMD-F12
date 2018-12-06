@@ -8,6 +8,6 @@ class CustomCell: UITableViewCell {
     @IBOutlet weak var sportImage: UIImageView!
 
     override func prepareForReuse() {
-        super.prepadeForReuse()
+        super.prepareForReuse()
    }
 }
