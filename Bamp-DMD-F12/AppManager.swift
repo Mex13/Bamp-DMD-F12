@@ -1,5 +1,7 @@
 import UIKit
 import Firebase
+import FirebaseAuth
+
 
 class AppManager {
     
@@ -10,15 +12,15 @@ class AppManager {
     var appContainer: AppContainerViewController!
     
     
-    private init () {}
+    private init () { }
     
     func showApp(){
         
         var viewController: UIViewController
         if Auth.auth().currentUser == nil{
             viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+
             
-            //This code will work once Firebase is attached to our project :) x
         } else {
            
             viewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
