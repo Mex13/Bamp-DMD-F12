@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 extension ViewController: CLLocationManagerDelegate {
     
-   // func locationManager( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager( manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else {return}
         print(location)
     }

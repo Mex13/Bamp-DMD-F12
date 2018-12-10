@@ -15,13 +15,8 @@
 		AA7A685F21AC330700BBDD94 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */; };
 		AA7A686121AC35EF00BBDD94 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A686021AC35EF00BBDD94 /* AppManager.swift */; };
 		B5357CC421B97B6D0032BF18 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5357CC321B97B6D0032BF18 /* SelectionViewController.swift */; };
-		B5357CC621B97E390032BF18 /* SelectionViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5357CC521B97E390032BF18 /* SelectionViewControllerTableViewCell.swift */; };
-		B5357CD021B982680032BF18 /* Skateboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5357CCF21B982680032BF18 /* Skateboard.jpg */; };
-		B5357CD221B9826C0032BF18 /* Cricket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5357CD121B9826C0032BF18 /* Cricket.jpg */; };
-		B5357CD421B982700032BF18 /* Tennis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5357CD321B982700032BF18 /* Tennis.jpg */; };
-		B5357CD621B982780032BF18 /* Golf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5357CD521B982780032BF18 /* Golf.jpg */; };
 		B5B85BFD21B67DCF00171387 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B85BFC21B67DCF00171387 /* CustomCell.swift */; };
-		B5B85BFF21B67F6F00171387 /* Custom Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B85BFE21B67F6F00171387 /* Custom Cell.xib */; };
+		B5B85BFF21B67F6F00171387 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B85BFE21B67F6F00171387 /* CustomCell.xib */; };
 		B5C517A721B565A8002BC49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C517A621B565A8002BC49B /* Assets.xcassets */; };
 		B5E606F621A2FCA1004571C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E606F521A2FCA1004571C7 /* AppDelegate.swift */; };
 		B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E606F721A2FCA1004571C7 /* ViewController.swift */; };
@@ -62,13 +57,8 @@
 		AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
 		AA7A686021AC35EF00BBDD94 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		B5357CC321B97B6D0032BF18 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
-		B5357CC521B97E390032BF18 /* SelectionViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewControllerTableViewCell.swift; sourceTree = "<group>"; };
-		B5357CCF21B982680032BF18 /* Skateboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Skateboard.jpg; path = "../../../../../Volumes/data/Digital Media Design/Group Project APP sports/Skateboard.jpg"; sourceTree = "<group>"; };
-		B5357CD121B9826C0032BF18 /* Cricket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cricket.jpg; path = "../../../../../Volumes/data/Digital Media Design/Group Project APP sports/Cricket.jpg"; sourceTree = "<group>"; };
-		B5357CD321B982700032BF18 /* Tennis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tennis.jpg; path = "../../../../../Volumes/data/Digital Media Design/Group Project APP sports/Tennis.jpg"; sourceTree = "<group>"; };
-		B5357CD521B982780032BF18 /* Golf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Golf.jpg; path = "../../../../../Volumes/data/Digital Media Design/Group Project APP sports/Golf.jpg"; sourceTree = "<group>"; };
 		B5B85BFC21B67DCF00171387 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		B5B85BFE21B67F6F00171387 /* Custom Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Custom Cell.xib"; sourceTree = "<group>"; };
+		B5B85BFE21B67F6F00171387 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		B5C517A621B565A8002BC49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E606F221A2FCA1004571C7 /* Bamp-DMD-F12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bamp-DMD-F12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E606F521A2FCA1004571C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,21 +155,16 @@
 				AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */,
 				B5E606F521A2FCA1004571C7 /* AppDelegate.swift */,
 				B5E606F721A2FCA1004571C7 /* ViewController.swift */,
-				B5B85BFE21B67F6F00171387 /* Custom Cell.xib */,
+				B5B85BFE21B67F6F00171387 /* CustomCell.xib */,
 				B5B85BFC21B67DCF00171387 /* CustomCell.swift */,
 				B5F1999E21A41D5D00BDFE45 /* Sport.swift */,
 				B5F1999C21A416E800BDFE45 /* SportPlaces.swift */,
 				B5E606F921A2FCA1004571C7 /* Main.storyboard */,
-				B5357CC521B97E390032BF18 /* SelectionViewControllerTableViewCell.swift */,
 				B5357CC321B97B6D0032BF18 /* SelectionViewController.swift */,
 				B5C517A621B565A8002BC49B /* Assets.xcassets */,
 				B5E606FE21A2FCA2004571C7 /* LaunchScreen.storyboard */,
 				B5E6070121A2FCA2004571C7 /* Info.plist */,
 				AA1ADA4C21B6808400A6906B /* GoogleService-Info.plist */,
-				B5357CCF21B982680032BF18 /* Skateboard.jpg */,
-				B5357CD321B982700032BF18 /* Tennis.jpg */,
-				B5357CD521B982780032BF18 /* Golf.jpg */,
-				B5357CD121B9826C0032BF18 /* Cricket.jpg */,
 			);
 			path = "Bamp-DMD-F12";
 			sourceTree = "<group>";
@@ -293,14 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B85BFF21B67F6F00171387 /* Custom Cell.xib in Resources */,
+				B5B85BFF21B67F6F00171387 /* CustomCell.xib in Resources */,
 				B5E6070021A2FCA2004571C7 /* LaunchScreen.storyboard in Resources */,
-				B5357CD621B982780032BF18 /* Golf.jpg in Resources */,
-				B5357CD421B982700032BF18 /* Tennis.jpg in Resources */,
 				AA1ADA4D21B6808400A6906B /* GoogleService-Info.plist in Resources */,
-				B5357CD021B982680032BF18 /* Skateboard.jpg in Resources */,
 				B5C517A721B565A8002BC49B /* Assets.xcassets in Resources */,
-				B5357CD221B9826C0032BF18 /* Cricket.jpg in Resources */,
 				B5E606FB21A2FCA1004571C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +437,6 @@
 				AA7A685D21AC2C0800BBDD94 /* LoginViewController.swift in Sources */,
 				B5F1999F21A41D5D00BDFE45 /* Sport.swift in Sources */,
 				B5F1999D21A416E800BDFE45 /* SportPlaces.swift in Sources */,
-				B5357CC621B97E390032BF18 /* SelectionViewControllerTableViewCell.swift in Sources */,
 				B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */,
 				B5B85BFD21B67DCF00171387 /* CustomCell.swift in Sources */,
 				B5357CC421B97B6D0032BF18 /* SelectionViewController.swift in Sources */,
