@@ -107,23 +107,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-WO-fVI">
-                                <rect key="frame" x="76" y="208" width="219" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-WO-fVI">
+                                <rect key="frame" x="78" y="260" width="219" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q5q-4u-LCd">
-                                <rect key="frame" x="76" y="271" width="219" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q5q-4u-LCd">
+                                <rect key="frame" x="78" y="323" width="219" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykp-4a-Uf9">
-                                <rect key="frame" x="168" y="324" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykp-4a-Uf9">
+                                <rect key="frame" x="170" y="376" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="login:" destination="q58-Ol-FIb" eventType="touchUpInside" id="rEi-zi-a2M"/>
@@ -131,6 +128,16 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xbv-WO-fVI" firstAttribute="leading" secondItem="tZE-d6-sOp" secondAttribute="leading" constant="78" id="5IN-4h-05y"/>
+                            <constraint firstItem="Ykp-4a-Uf9" firstAttribute="top" secondItem="q5q-4u-LCd" secondAttribute="bottom" constant="23" id="AiB-eA-aGj"/>
+                            <constraint firstItem="Xbv-WO-fVI" firstAttribute="top" secondItem="tZE-d6-sOp" secondAttribute="top" constant="240" id="IeN-X2-RNk"/>
+                            <constraint firstItem="Xbv-WO-fVI" firstAttribute="trailing" secondItem="q5q-4u-LCd" secondAttribute="trailing" id="Por-6O-Mix"/>
+                            <constraint firstItem="Ykp-4a-Uf9" firstAttribute="leading" secondItem="tZE-d6-sOp" secondAttribute="leading" constant="170" id="Ys4-Gf-4WC"/>
+                            <constraint firstItem="Xbv-WO-fVI" firstAttribute="leading" secondItem="q5q-4u-LCd" secondAttribute="leading" id="dYj-9r-pKz"/>
+                            <constraint firstItem="Xbv-WO-fVI" firstAttribute="centerX" secondItem="w8j-ks-5bD" secondAttribute="centerX" id="eWr-n8-vbD"/>
+                            <constraint firstItem="q5q-4u-LCd" firstAttribute="top" secondItem="Xbv-WO-fVI" secondAttribute="bottom" constant="33" id="p2e-zo-ThX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tZE-d6-sOp"/>
                     </view>
                     <connections>
