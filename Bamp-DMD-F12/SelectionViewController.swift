@@ -19,7 +19,7 @@ class SelectionViewController: UIViewController, UITableViewDataSource, UITableV
     if let image = UIImage(named: sport.name) {
         cell.sportImage.image = image
     } else {
-        cell.sportImage.image = UIImage(named: "GolfImage")
+        cell.sportImage.image = UIImage(named: "SportSilhouette")
     }
     
     cell.myLabel.text = sport.name
