@@ -10,6 +10,7 @@
 		0C759EB615DD2D0B8F22075A /* Pods_Bamp_DMD_F12.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD6EF26576A6F61E673BC42 /* Pods_Bamp_DMD_F12.framework */; };
 		1D3AC9D5283CBBD35FB1F7F6 /* Pods_Bamp_DMD_F12Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC24CCE6C2C7710971283AA /* Pods_Bamp_DMD_F12Tests.framework */; };
 		83F21F5E0FF9B5C3318F2408 /* Pods_Bamp_DMD_F12UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF1CC8857F622E9F207841D /* Pods_Bamp_DMD_F12UITests.framework */; };
+		A349644521BEABFC0067F499 /* SportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349644421BEABFC0067F499 /* SportType.swift */; };
 		AA1ADA4D21B6808400A6906B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1ADA4C21B6808400A6906B /* GoogleService-Info.plist */; };
 		AA7A685D21AC2C0800BBDD94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */; };
 		AA7A685F21AC330700BBDD94 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */; };
@@ -52,6 +53,7 @@
 		8B2401DAFC30CF605201C976 /* Pods-Bamp-DMD-F12Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bamp-DMD-F12Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bamp-DMD-F12Tests/Pods-Bamp-DMD-F12Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E8DD5A83D2894DE7F6E9448 /* Pods-Bamp-DMD-F12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bamp-DMD-F12.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bamp-DMD-F12/Pods-Bamp-DMD-F12.debug.xcconfig"; sourceTree = "<group>"; };
 		920C143CA2DBC6FB4530B30A /* Pods-Bamp-DMD-F12UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bamp-DMD-F12UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bamp-DMD-F12UITests/Pods-Bamp-DMD-F12UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A349644421BEABFC0067F499 /* SportType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportType.swift; sourceTree = "<group>"; };
 		AA1ADA4C21B6808400A6906B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AA7A685C21AC2C0800BBDD94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA7A685E21AC330700BBDD94 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				B5B85BFE21B67F6F00171387 /* CustomCell.xib */,
 				B5B85BFC21B67DCF00171387 /* CustomCell.swift */,
 				B5F1999E21A41D5D00BDFE45 /* Sport.swift */,
+				A349644421BEABFC0067F499 /* SportType.swift */,
 				B5F1999C21A416E800BDFE45 /* SportPlaces.swift */,
 				B5E606F921A2FCA1004571C7 /* Main.storyboard */,
 				B5357CC321B97B6D0032BF18 /* SelectionViewController.swift */,
@@ -439,6 +442,7 @@
 				B5F1999D21A416E800BDFE45 /* SportPlaces.swift in Sources */,
 				B5E606F821A2FCA1004571C7 /* ViewController.swift in Sources */,
 				B5B85BFD21B67DCF00171387 /* CustomCell.swift in Sources */,
+				A349644521BEABFC0067F499 /* SportType.swift in Sources */,
 				B5357CC421B97B6D0032BF18 /* SelectionViewController.swift in Sources */,
 				B5F1999B21A40D5B00BDFE45 /* MapViewController.swift in Sources */,
 				B5E606F621A2FCA1004571C7 /* AppDelegate.swift in Sources */,

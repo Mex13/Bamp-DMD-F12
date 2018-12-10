@@ -20,6 +20,5 @@ class Sport: NSObject, MKAnnotation {
         self.location = location
         name = snapshot.data()["Name"] as! String
         type = snapshot.data()["Type"] as! String
-
     }
 }
