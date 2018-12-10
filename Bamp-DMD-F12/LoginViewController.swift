@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
         
         
         Auth.auth().createUser(withEmail: email, password: password) { result, error in
-            guard let user = result?.user else { return }
+            guard (result?.user) != nil else { return }
         }
         
         
