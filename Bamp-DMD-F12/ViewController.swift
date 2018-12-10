@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         let nib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "Cell")
-        tableView.rowHeight = 120.0
+        tableView.rowHeight = 180.0
     }
     
    
