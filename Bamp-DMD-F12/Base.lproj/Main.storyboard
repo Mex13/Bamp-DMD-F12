@@ -198,25 +198,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8K-M0-TlJ">
-                                <rect key="frame" x="0.0" y="43" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-9i-fgI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z8K-M0-TlJ">
+                                <rect key="frame" x="0.0" y="40" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="Label" id="stH-ya-Gzd">
+                                    <navigationItem id="stH-ya-Gzd">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="8cq-YJ-2ba">
                                             <connections>
                                                 <action selector="Back:" destination="zbl-za-dDB" id="8JZ-oH-Pq4"/>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="aOo-EU-njA"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-9i-fgI">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="z8K-M0-TlJ" firstAttribute="leading" secondItem="WGq-sS-2yE" secondAttribute="leading" id="HOI-KW-wvt"/>
+                            <constraint firstItem="z8K-M0-TlJ" firstAttribute="trailing" secondItem="WGq-sS-2yE" secondAttribute="trailing" id="QB9-VB-Min"/>
+                            <constraint firstItem="z8K-M0-TlJ" firstAttribute="top" secondItem="WGq-sS-2yE" secondAttribute="top" constant="20" id="z9L-Tt-RfL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WGq-sS-2yE"/>
                     </view>
                     <connections>
