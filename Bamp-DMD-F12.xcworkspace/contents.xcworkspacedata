@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/s5102942/Documents/GitHub/Bamp-DMD-F12/Bamp-DMD-F12/SignUpViewController.swift">
-   </FileRef>
-   <FileRef
       location = "group:Bamp-DMD-F12.xcodeproj">
    </FileRef>
    <FileRef
