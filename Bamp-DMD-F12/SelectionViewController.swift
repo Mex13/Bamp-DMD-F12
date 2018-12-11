@@ -32,6 +32,8 @@ class SelectionViewController: UIViewController, UITableViewDataSource, UITableV
     
     return cell
   }
+    
+    
         
     override func viewDidLoad() {
     super.viewDidLoad()
@@ -49,6 +51,15 @@ class SelectionViewController: UIViewController, UITableViewDataSource, UITableV
             self.tableView.reloadData()
         }
         
+
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let mapVC = storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        self.present(mapVC, animated: true, completion: nil)
+        
+
     }
     
     override func didReceiveMemoryWarning() {

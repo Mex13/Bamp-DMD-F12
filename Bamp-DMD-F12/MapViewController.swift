@@ -7,10 +7,19 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
     
+    
+
+    @IBAction func Back(_ sender: Any) {
+         self.performSegue(withIdentifier: "Back", sender: nil)
+         self.dismiss(animated: true, completion: nil)
+    }
+    
   let locationManager = CLLocationManager()
     
     var locations = [Sport]()
 
+
+    
     override func viewDidLoad() {
     super.viewDidLoad()
         
@@ -24,12 +33,9 @@ class MapViewController: UIViewController {
                 }
             }
             
- 
-            
-            self.mapView.addAnnotations(self.filterBy(sportName: "Football"))
+            //self.present(MapViewController, animated: true, completion: nil)
+            self.mapView.addAnnotations(self.filterBy(sportName: "Golf"))
         }
-
-        
     }
     
     func filterBy(sportName: String) -> [Sport] {
