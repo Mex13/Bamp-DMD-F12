@@ -197,12 +197,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-9i-fgI">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-9i-fgI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yzv-9i-fgI" firstAttribute="leading" secondItem="Xch-ME-RkI" secondAttribute="leading" id="L1c-KY-Ooa"/>
+                            <constraint firstItem="Yzv-9i-fgI" firstAttribute="top" secondItem="Xch-ME-RkI" secondAttribute="top" id="Wi8-wG-6Eh"/>
+                            <constraint firstAttribute="trailing" secondItem="Yzv-9i-fgI" secondAttribute="trailing" id="lSk-Le-ueG"/>
+                            <constraint firstItem="Yzv-9i-fgI" firstAttribute="bottom" secondItem="WGq-sS-2yE" secondAttribute="bottom" id="xCq-pD-dQA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WGq-sS-2yE"/>
                     </view>
                     <connections>
