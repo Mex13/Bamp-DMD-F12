@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4f-pR-hJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2497" y="134"/>
+            <point key="canvasLocation" x="3436" y="133.5832083958021"/>
         </scene>
         <!--App Container View Controller-->
         <scene sceneID="DIi-zo-b3L">
@@ -146,13 +146,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HbT-h4-u19"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ynz-pa-wSx"/>
                     <connections>
                         <outlet property="tableView" destination="0tO-vy-7mA" id="g0m-fe-I90"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6H-z2-ise" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="143" y="134"/>
+            <point key="canvasLocation" x="1080.8" y="133.5832083958021"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="1rt-37-L4O">
@@ -202,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1Y-N2-im4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-892" y="181"/>
+            <point key="canvasLocation" x="-894" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -257,27 +258,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="134"/>
+            <point key="canvasLocation" x="1952.8" y="133.5832083958021"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="C1r-dt-d3a">
             <objects>
-                <viewController id="zbl-za-dDB" customClass="MapViewController" customModule="Bamp_DMD_F12" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zbl-za-dDB" customClass="MapViewController" customModule="Bamp_DMD_F12" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xch-ME-RkI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-9i-fgI">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8K-M0-TlJ">
+                                <rect key="frame" x="0.0" y="43" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Label" id="stH-ya-Gzd">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="8cq-YJ-2ba">
+                                            <connections>
+                                                <action selector="Back:" destination="zbl-za-dDB" id="8JZ-oH-Pq4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-9i-fgI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Yzv-9i-fgI" firstAttribute="leading" secondItem="Xch-ME-RkI" secondAttribute="leading" id="L1c-KY-Ooa"/>
-                            <constraint firstItem="Yzv-9i-fgI" firstAttribute="top" secondItem="Xch-ME-RkI" secondAttribute="top" id="Wi8-wG-6Eh"/>
-                            <constraint firstAttribute="trailing" secondItem="Yzv-9i-fgI" secondAttribute="trailing" id="lSk-Le-ueG"/>
-                            <constraint firstItem="Yzv-9i-fgI" firstAttribute="bottom" secondItem="WGq-sS-2yE" secondAttribute="bottom" id="xCq-pD-dQA"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WGq-sS-2yE"/>
                     </view>
                     <connections>
@@ -286,7 +295,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXQ-xc-SED" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1782" y="134"/>
+            <point key="canvasLocation" x="2720.8000000000002" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

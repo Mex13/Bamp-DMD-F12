@@ -25,19 +25,21 @@ class SelectionViewController: UIViewController, UITableViewDataSource, UITableV
     cell.myLabel.text = sport.name
     
     cell.contentView.backgroundColor = .red
-    cell.backgroundColor = .blue
+    //cell.backgroundColor =
     
 
     
     
     return cell
   }
+    
+    
         
     override func viewDidLoad() {
     super.viewDidLoad()
         let nib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "Cell")
-        tableView.rowHeight = 180.0
+        tableView.rowHeight = 120.0
         
         let ref = Firestore.firestore().collection("Sports")
         ref.getDocuments { snapshot, error in
@@ -49,6 +51,15 @@ class SelectionViewController: UIViewController, UITableViewDataSource, UITableV
             self.tableView.reloadData()
         }
         
+
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let mapVC = storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        self.present(mapVC, animated: true, completion: nil)
+        
+
     }
     
     override func didReceiveMemoryWarning() {
