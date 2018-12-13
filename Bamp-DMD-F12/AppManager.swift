@@ -11,7 +11,6 @@ class AppManager {
     
     var appContainer: AppContainerViewController!
     
-    
     private init () { }
     
     func showApp(){
@@ -25,7 +24,6 @@ class AppManager {
         }
         
     appContainer.present(viewController, animated: true, completion: nil)
-        
     }
     
     func logout() {

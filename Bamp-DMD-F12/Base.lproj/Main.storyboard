@@ -208,6 +208,7 @@
                                 <items>
                                     <navigationItem id="stH-ya-Gzd">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="8cq-YJ-2ba">
+                                            <color key="tintColor" red="0.79825129533678751" green="0.52079931726154038" blue="0.13338554530400951" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="Back:" destination="zbl-za-dDB" id="8JZ-oH-Pq4"/>
                                                 <segue destination="3c9-A0-TQm" kind="show" id="RlH-TQ-wYl"/>

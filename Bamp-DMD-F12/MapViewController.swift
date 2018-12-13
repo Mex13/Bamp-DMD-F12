@@ -4,23 +4,17 @@ import UIKit
 import Firebase
 
 class MapViewController: UIViewController {
+//this class is about the MapView. This class is showing pins on our map, which are takin informations from Firebase.
     
     @IBOutlet weak var mapView: MKMapView!
     
-    
-
     @IBAction func Back(_ sender: Any) {
          self.performSegue(withIdentifier: "Back", sender: nil)
          self.dismiss(animated: true, completion: nil)
-
     }
-    
   let locationManager = CLLocationManager()
     
     var locations = [Sport]()
-
-
-    
     override func viewDidLoad() {
     super.viewDidLoad()
         
@@ -33,8 +27,6 @@ class MapViewController: UIViewController {
                     self.locations.append(location)
                 }
             }
-            
-            //self.present(MapViewController, animated: true, completion: nil)
             self.mapView.addAnnotations(self.filterBy(sportName: "Golf"))
         }
     }
@@ -46,35 +38,7 @@ class MapViewController: UIViewController {
     }
   
 }
-//extension MapViewController: MKMapViewDelegate {
-//    func mapView( mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-//
-//        guard let annotation = annotation as? MapAnnotation else { return nil}
-//
-//        let identifier = "marker"
-//        var view: MKMarkerAnnotationView
-//
-//        if let dequeudView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
-//            as? MKMarkerAnnotationView {
-//            dequeudView.annotation = annotation
-//            view = dequeudView
-//        } else {
-//            view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-//            view.canShowCallout = true
-//            view.calloutOffset = CGPoint(x: -5, y: 5)
-//            view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-//        }
-//
-//        view.markerTintColor = annotation.color
-//
-//        return view
-//        }
-//    }
 extension MapViewController: CLLocationManagerDelegate {
-//    
-//    func locationManager ( _ manager: CLLocationManager, didEnterRegion region: CLRegion)
-//    func locationManager( manager: CLLocationManager, didExitRegion region, CLRegion) {
-//        print("Left - \(region.identifier)")
-//    }
-}
+   }
+
 
