@@ -57,13 +57,12 @@ class SelectionViewController: UIViewController, UITableViewDataSource, UITableV
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let mapVC = storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        mapVC.sportType = sports[indexPath.row]
+        
         self.present(mapVC, animated: true, completion: nil)
         
 
     }
     
-    override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    }
 }
 

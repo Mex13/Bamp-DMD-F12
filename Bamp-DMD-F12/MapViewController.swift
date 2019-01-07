@@ -8,10 +8,12 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
     
+    var sportType: SportType!
+    
     @IBAction func Back(_ sender: Any) {
-         self.performSegue(withIdentifier: "Back", sender: nil)
          self.dismiss(animated: true, completion: nil)
     }
+    
   let locationManager = CLLocationManager()
     
     var locations = [Sport]()
@@ -27,7 +29,8 @@ class MapViewController: UIViewController {
                     self.locations.append(location)
                 }
             }
-            self.mapView.addAnnotations(self.filterBy(sportName: "Golf"))
+            self.mapView.addAnnotations(self.filterBy(sportName: self.sportType.name))
+            self.mapView.showAnnotations(self.mapView.annotations, animated: true)
         }
     }
     

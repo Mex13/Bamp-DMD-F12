@@ -13,7 +13,7 @@ class SignUpViewController: UIViewController {
             guard (result?.user) != nil else { return }
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "SelectionViewController") as! SelectionViewController
+            let vc = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! SelectionViewController
             self.present(vc, animated: true, completion: nil)
             
         }
