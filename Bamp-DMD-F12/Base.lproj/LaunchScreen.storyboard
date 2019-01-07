@@ -22,12 +22,12 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Where To Play?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cU-zE-olN">
                                 <rect key="frame" x="32" y="186" width="351" height="185"/>
-                                <color key="backgroundColor" red="1" green="0.9787667095" blue="0.1195923912" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="40"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.97876670945411848" blue="0.11959239123129539" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4cU-zE-olN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="142" id="0gp-kK-Z7X"/>
                             <constraint firstItem="5ph-kR-CEZ" firstAttribute="centerX" secondItem="4cU-zE-olN" secondAttribute="centerX" id="Dgi-kW-wyr"/>
