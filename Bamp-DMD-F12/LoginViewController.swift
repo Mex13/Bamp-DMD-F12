@@ -18,7 +18,7 @@ class LoginViewController: UIViewController {
     @IBAction func login(_ sender: Any) {
         
         guard let email = emailTextField.text, let password = passwordTextField.text else { return }
-
+//this helps reduce code by just returning back to the login page if the details are wrong.
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
             if let _ = result?.user {
                 self.dismiss(animated: true, completion: nil)
