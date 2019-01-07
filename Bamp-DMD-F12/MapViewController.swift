@@ -15,7 +15,7 @@ class MapViewController: UIViewController {
     }
     
   let locationManager = CLLocationManager()
-    
+    //this is to configure, start and stop core location services.
     var locations = [Sport]()
     override func viewDidLoad() {
     super.viewDidLoad()
@@ -31,12 +31,15 @@ class MapViewController: UIViewController {
             }
             self.mapView.addAnnotations(self.filterBy(sportName: self.sportType.name))
             self.mapView.showAnnotations(self.mapView.annotations, animated: true)
+ //this allows the location of a certain sport to be found depending on the sport type selected.
         }
     }
+    
     
     func filterBy(sportName: String) -> [Sport] {
         return locations.filter({ sport -> Bool in
             return sport.type == sportName
+ //this returns the screen back to the selection page after already selecting a sport type.
         })
     }
   
