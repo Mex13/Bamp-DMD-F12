@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kvx-0b-kBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-524" y="-599"/>
+            <point key="canvasLocation" x="-970" y="-663"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="OZn-4I-QU6">
@@ -104,7 +104,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GWi-ig-WgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="495.6521739130435" y="-586.60714285714278"/>
+            <point key="canvasLocation" x="141" y="-595"/>
         </scene>
         <!--Selection View Controller-->
         <scene sceneID="yS4-HU-NtT">
@@ -133,11 +133,6 @@
                                     <outlet property="delegate" destination="3c9-A0-TQm" id="HgT-iF-2ow"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzy-oQ-kLH">
-                                <rect key="frame" x="256" y="-6" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -235,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1Y-N2-im4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-894.20289855072474" y="133.92857142857142"/>
+            <point key="canvasLocation" x="-694" y="113"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="C1r-dt-d3a">
