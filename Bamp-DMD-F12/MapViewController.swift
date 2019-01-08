@@ -4,7 +4,7 @@ import UIKit
 import Firebase
 
 class MapViewController: UIViewController {
-//this class is about the MapView. This class is showing pins on our map, which are takin informations from Firebase.
+//this class is about the MapView. This class is showing pins on our map, which are taking information from Firebase.
     
     @IBOutlet weak var mapView: MKMapView!
     

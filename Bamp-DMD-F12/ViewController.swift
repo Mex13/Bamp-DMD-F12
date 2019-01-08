@@ -6,6 +6,7 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var tableView: UITableView!
+    //tableview connected to the code
     
     
     let locationManager = CLLocationManager()
@@ -15,15 +16,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         sport.delegate = self
+        //View controller is acting as a delegate
         sport.startPlaceSport()
         
         locationManager.requestAlwaysAuthorization()
+        //asks user to use their location
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
         
         let nib = UINib(nibName: "CustomCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "Cell")
         tableView.rowHeight = 120.0
+        //how the table looks
     }
     
    
